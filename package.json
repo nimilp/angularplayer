@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "An audio player done using angular js and html5",
   "main": "index.js",
-  "dependencies": {
-    "angular": "^1.4.7"
-  },
   "devDependencies": {
     "bower": "^1.6.5"
   },
