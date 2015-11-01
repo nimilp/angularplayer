@@ -1,0 +1,29 @@
+{
+  "name": "angularplayer",
+  "version": "1.0.0",
+  "description": "An audio player done using angular js and html5",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.7"
+  },
+  "devDependencies": {
+    "bower": "^1.6.5"
+  },
+  "scripts": {
+    "postinstall":"bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimilp/angularplayer.git"
+  },
+  "keywords": [
+    "audio"
+  ],
+  "author": "Nimil Peethambaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimilp/angularplayer/issues"
+  },
+  "homepage": "https://github.com/nimilp/angularplayer#readme"
+}
