@@ -1,1 +1,9 @@
-<p>test</p>
+<div ng-controller="loginController" padding-left="16px">
+    <p >
+       <label for="username">Username</label> <input ng-model="username" /> {{username}}
+    </p>
+     <p >
+       <label for="password">Password</label> <input ng-model="password" type="password" /> {{password}}
+    </p>
+    <p><button ng-click="loginController.validate()">Login</button></p>
+</div>

@@ -1,5 +1,5 @@
 'use strict';
-angular.module('login_module',{})
+angular.module('login.module',[])
 .controller('loginController',function(){
     
 });
